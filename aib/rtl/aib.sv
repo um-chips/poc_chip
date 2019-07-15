@@ -5,6 +5,8 @@ module aib_noesd #(parameter NumIo = 58)
 module aib_esd #(parameter NumIo = 58)
 `elsif INTERPOSER
 module aib_interposer #(parameter NumIo = 58)
+`else
+module aib #(parameter NumIo = 58)
 `endif
 (
   input  logic                  i_rst_n,
